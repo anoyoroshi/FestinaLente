@@ -1,0 +1,138 @@
+body {
+  font-family: 'M PLUS 1p', sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.section {
+  background-color: #f5f7f9;
+  padding: 90px 0;
+  position: relative;
+}
+
+.section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top: 150px solid black;
+  border-right: 300px solid transparent;
+}
+.section::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-bottom: 150px solid black;
+  border-left: 300px solid transparent;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.col01 {
+  display: inline-block;
+  width: 120%;
+  height: 100%;
+  /* border: 1px red solid; */
+  margin: auto 12%;
+  padding: 0;
+}
+
+.col02 {
+  width: 100%;
+  height: 100%;
+  /* border: 1px red solid; */
+  margin-right: 15%;
+
+}
+
+.col01 p {
+  font-size: 12px;
+  line-height: 150%;
+}
+
+.col01 h1 {
+  font-size: 2rem;
+  margin: 10% 0;
+  font-weight: 800;
+
+}
+
+img {
+  width: 130%;
+  rotate: 20deg;
+}
+
+@media screen and (max-width: 980px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;  
+  }
+  .col01 {
+    display: inline-block;
+    width: 80%;
+    height: 50%;
+    /* border: 1px red solid; */
+    margin: auto 13%;
+    margin-top: 5%;
+    padding: 0;
+  }
+  
+  .col02 {
+    width: 50%;
+    height: 50%;
+    /* border: 1px red solid; */
+    margin-left: 30%;  
+  }
+  
+  .col01 p {
+    font-size: 20px;
+    line-height: 150%;
+  }
+  
+  .col01 h1 {
+    font-size: 2rem;
+    margin: 5% 0;
+    font-weight: 800;
+  
+  }
+  
+  img {
+    width: 120%;
+    rotate: 20deg;
+    margin-top: 5%;
+  }
+
+
+}
+  @media screen and (max-width: 480px) {
+    .col01 p {
+      font-size: 16px;
+      line-height: 150%;
+    }
+    
+    .col01 h1 {
+      font-size: 1.6rem;
+      margin: 5% 0;
+      font-weight: 800;
+    
+    }
+    .col01 {
+      margin-top: 10%;
+    }
+    
+    .col02 {
+      width: 50%;
+      height: 50%;
+      /* border: 1px red solid; */
+      margin-left: 20%;  
+    }
+
+  }
