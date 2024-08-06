@@ -1,0 +1,243 @@
+/* /////////////////////////////////////
+common
+///////////////////////////////////// */
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    border-color: #fdfdfd;
+}
+
+
+@media only screen and (max-width:768px) {}
+
+/*/////////////////////////////////////
+ header
+/////////////////////////////////////*/
+header {
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16p;
+}
+
+header a {
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+
+
+
+@media only screen and (max-width:768px) {}
+
+
+/*////////////////////////////////////
+ face
+////////////////////////////////////*/
+.face {
+    padding-top: 200px;
+    padding-bottom: 230px;
+    width: 90%;
+    min-width: 1200px;
+    margin: 0 auto;
+}
+
+.face h1 {
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 6px;
+}
+
+.face text {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+@media only screen and (max-width:768px) {
+    .face h1 {
+        font-size: 64px;
+    }
+}
+
+/*///////////////////////////////////
+ hero 
+////////////////////////////////////*/
+.hero {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hero .image1 {
+    background-image: url(imago01.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 32%;
+    height: 330px;
+    border-radius: 16px;
+}
+
+.hero .image2 {
+    background-image: url(imago02.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 32%;
+    height: 330px;
+    border-radius: 16px;
+}
+
+.hero .image3 {
+    background-image: url(imago03.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 32%;
+    height: 330px;
+    border-radius: 16px;
+}
+
+@media only screen and (max-width:768px) {
+    .hero .image1 {
+        width: 64%;
+        height: 230px;
+    }
+
+    .hero .image2 {
+        width: 17%;
+        height: 230px;
+    }
+
+    .hero .image3 {
+        width: 17%;
+        height: 230px;
+    }
+}
+
+
+
+/*////////////////////////////////////
+ company 
+////////////////////////////////////*/
+.company .container {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    width: 90%;
+    max-width: 640px margin 0 auto;
+}
+
+.company .container h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: 1px;
+    margin-bottom: 48px;
+}
+
+.company .text {
+    line-height: 2;
+    margin-bottom: 48px;
+
+}
+
+@media only screen and (max-width:768px) {}
+
+/*////////////////////////////////////
+about
+////////////////////////////////////*/
+.about {
+    background-color: #ededed;
+}
+
+.about .container {
+    width: 90%;
+    min-width: 1200px;
+    margin: 0 auto;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.about .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about .col {
+    width: 48%;
+}
+
+.about .image4 {
+    background-image: url(imago04.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 32%;
+    height: 330px;
+    border-radius: 16px;
+}
+
+.about h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 30px;
+}
+
+.about .text {
+    line-height: 2;
+}
+
+@media only screen and (max-width:768px) {
+    .about .col {
+        width: 100%;
+    }
+
+    .about .image4 {
+        height: 260px;
+        margin-bottom: 36px;
+    }
+}
+
+/*////////////////////////////////////
+contact
+////////////////////////////////////*/
+.contact {
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.contact h2 {
+    font-size: 30px;
+    background-color: #333333;
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 10px;
+    margin-bottom: 30px;
+
+
+}
+
+
+@media only screen and (max-width:768px) {
+    .contact h2 {
+        font-size: 17px;
+    }
+}
+
+/*///////////////////////////////////
+ footer 
+///////////////////////////////////*/
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    font-size: 10px;
+    letter-spacing: 2px;
+    padding-top: 2px;
+    padding-bottom: 20px;
+
+}
+
+@media only screen and (max-width:768px) {}
