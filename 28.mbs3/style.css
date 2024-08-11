@@ -1,0 +1,142 @@
+/*_______________________________________
+common
+_______________________________________ */
+body {
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+
+@media only screen and (max-width:768px) {}
+
+/*_______________________________________
+section
+_______________________________________ */
+.section {
+    background-color: #f2f2f8;
+    padding: 120px 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.heading {
+    font-size: 36px;
+    font-weight: 500;
+    color: #3140e5;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 48px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.col {
+    width: 23%;
+    text-align: center;
+}
+
+img {
+    width: 70%;
+    height: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+.box {
+    background-color: #fff;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 16px -6px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #3140e5;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.text {
+    text-align: left;
+    line-height: 1.5;
+    color: #474747;
+}
+
+
+
+
+@media only screen and (max-width:768px) {
+    .heading {
+        font-size: 28px;
+    }
+
+    .row {
+        flex-wrap: wrap;
+        margin-bottom: 36px;
+    }
+
+    .col {
+        width: 100%;
+
+
+    }
+}
+
+/*_______________________________________
+about
+_______________________________________ */
+
+
+
+@media only screen and (max-width:768px) {}
+
+/*_______________________________________
+service
+_______________________________________ */
+
+
+
+@media only screen and (max-width:768px) {}
+
+/*_______________________________________
+company
+_______________________________________ */
+
+
+
+@media only screen and (max-width:768px) {}
+
+/*_______________________________________
+contact
+_______________________________________ */
+
+
+
+@media only screen and (max-width:768px) {}
+
+/*_______________________________________
+footer
+_______________________________________ */
+
+
+
+@media only screen and (max-width:768px) {}
